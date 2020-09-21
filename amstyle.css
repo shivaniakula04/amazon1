@@ -1,0 +1,175 @@
+::before,
+::after
+{
+	margin:0;
+	padding:0%;
+	box-sizing:border-box;
+}
+html
+{
+	font-size:62.5%
+	font-family:"Jost",sans-serif;
+}
+@media(max-width:998px)
+{
+	html
+	{
+		font-size:55%;
+	}
+}
+@media(max-width:768px)
+{
+	html
+	{
+		font-size:45%;
+	}
+}		
+.main1
+{
+		
+		font-size:6rem;
+		background-color:rgb(35,47,62);
+		color:white;
+		border-radius:0.1rem;
+		font-family:georgia;
+		text-shadow:1rem 1rem 2rem silver;
+		padding:1rem;
+}
+.main2
+{
+		font-size:3rem;
+		text-align:center;
+		background-color:rgb(35,47,62);
+		border-radius:0.1rem;
+		font-family:georgia;
+		padding:1rem;
+		
+}
+.main3
+{
+		
+		font-size:3rem;
+		background-color:rgb(35,47,62);
+		color:white;
+		border-radius:0.1rem;
+		font-family:georgia;
+		padding:1rem;
+}
+#searchclass
+{
+	font-size:2.5rem;
+}
+#des
+{
+	font-size:5rem;
+	float:right;
+	padding:1rem;
+}
+#des:hover
+{
+	color:orange;
+}
+
+.selectclass
+{
+	font-size:2rem;
+	border:none;
+}
+
+#locationicon
+{
+	font-size:3rem;
+}
+#locationicon:hover
+{
+	color:orange;
+}
+.navbar
+{
+	font-size:3rem;
+	background-color:rgb(55,71,90);
+	border-radius:0.1rem;
+	font-family:georgia;
+	padding:2rem;
+	text-align:center;
+}
+.nav
+{
+	text-decoration:none;
+	color:white;
+}
+.nav:hover
+{
+	color:orange;
+}
+.regcontainer
+{
+	height:50rem;
+	display:grid;
+	place-items:center;
+	padding:5rem;
+}
+.comp
+{
+	
+	background-color:#ffffff;
+	border-radius:2rem;
+	box-shadow:0 1.2rem 3rem 0.5rem rgba(0,0,0,0.2);
+	padding:3rem;
+	text-align:center;
+}
+#reg
+{
+	text-transform:uppercase;
+	letter-spacing:0.2rem;
+	word-spacing:0.5rem;
+	color:#171717;
+	margin:2rem 0 0.5rem 0;
+	font-size:2rem;
+	font-weight:500;
+	text-shadow:0 0.3rem 0.5rem rgba(0,0,0,0.3);
+}
+.box
+{
+	padding:5rem;
+}
+.say
+{
+	margin:1rem;
+	height:3rem;
+	width:30rem;
+	font-size:2rem;
+	border:none;
+	box-shadow:0 1rem 3rem -1rem rgb(254,189,105);
+}
+.logcontainer
+{
+	
+	display:grid;
+	place-items:center;
+	padding:5rem;
+}
+.comp2
+{
+	
+	background-color:#ffffff;
+	border-radius:2rem;
+	box-shadow:0 1.2rem 3rem 0.5rem rgba(0,0,0,0.2);
+	padding:3rem;
+	text-align:center;
+}
+#log
+{
+	text-transform:uppercase;
+	letter-spacing:0.2rem;
+	word-spacing:0.5rem;
+	color:#171717;
+	margin:2rem 0 0.5rem 0;
+	font-size:2rem;
+	font-weight:500;
+	text-shadow:0 0.3rem 0.5rem rgba(0,0,0,0.3);
+}
+.logbox
+{
+	padding:5rem;
+}
